@@ -1,6 +1,6 @@
 {
-  "homepage": "http://yshgpta.github.io/dream_app",
-  "name": "dream_app",
+  "homepage": "http://yshgpta.github.io/my-brain-app",
+  "name": "my-brain-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -1,0 +1,131 @@
+.wrapper{
+  position: relative;
+  height: 58em;
+  overflow-x: hidden;
+}
+.cover-image{
+  background-size: cover;
+  top: 0;
+  left: 0;
+  height: 58em;
+  width: 100%;
+  position: absolute;
+}
+
+.cover-image-fade{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  height: 58em;
+  width: 100%;
+  opacity: .55;
+}
+.fog{
+  position: absolute;
+  z-index: 0;
+  width: 90em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-20%);
+}
+.moving-clouds-block{
+  position: absolute;
+  width: 250em;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+}
+
+.moving-clouds {
+  height: 58em;
+  width: 100%;
+  animation: cloudLoop 50s linear infinite;
+}
+
+@keyframes cloudLoop {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.navbar{
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  background-color: transparent;
+}
+
+.navbar-item{
+  color:rgb(150, 150, 150);
+  font-size: 2rem;
+  float: right;
+  margin: 10px 25px;
+}
+
+.navbar-item.sign-up{
+  border: 4px solid rgb(150, 150, 150);
+  padding: 4px 10px;
+  margin: 2px 4px;
+}
+
+.navbar-item:hover{
+  color: #fff;
+}
+
+.navbar-item.sign-up:hover{
+  border-color: #fff;
+  transform: scale(1.1);
+}
+
+.title{
+  position: absolute;
+  max-width: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.title-1{
+  font-family: Roboto;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 7.5rem;
+  color: rgb(196, 196, 196);
+  display: block;
+  line-height: 1;
+}
+
+.title-2{
+  font-family: dancing script;
+  font-size: 7rem;
+  font-weight: 600;
+  text-align:center;
+  display: block;
+  color: rgb(196, 196, 196);
+}
+
+.title-3{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-size: 18rem;
+  font-weight: 600;
+  color: rgb(196, 196, 196);
+  display: block;
+  line-height: 1.2;
+}
+
+.title-4{
+  font-family: Roboto;
+  border: 4px solid #fff;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 8px;
+  color: rgb(196, 196, 196);
+  display: block;
+}

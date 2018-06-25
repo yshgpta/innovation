@@ -1,0 +1,20 @@
+.main-body{
+   background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+   position: relative;
+}
+
+Particles{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.components{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}

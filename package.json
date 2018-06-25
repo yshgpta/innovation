@@ -1,6 +1,6 @@
 {
   "homepage": "http://yshgpta.github.io/dream_app",
-  "name": "signup",
+  "name": "dream_app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

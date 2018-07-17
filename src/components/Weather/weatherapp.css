@@ -1,0 +1,15 @@
+.weather__bg{
+   display: block;
+   width: 100%;
+   height: 730px;
+   background-size: cover;
+   position: relative;
+ }
+
+.main-block-title{
+  position: absolute;
+  color: #fff;
+  width: 50%;
+  top: 10px;
+  left: 10px;
+}

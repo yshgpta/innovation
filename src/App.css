@@ -1,0 +1,17 @@
+.cover{
+  position: relative;
+}
+.date{
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  color: rgb(158, 158, 158);
+  font-size: 2rem;
+}
+
+.weather-text{
+  font-family: Roboto;
+  font-weight: 300;
+  text-align: center;
+  font-size: 4rem;
+}

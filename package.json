@@ -4,11 +4,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/spotify-web-playback-sdk": "^0.1.2",
     "clarifai": "^2.7.1",
+    "jssor-slider": "^27.1.0",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-particles-js": "^2.2.0",
-    "react-scripts": "1.1.4"
+    "react-svg-draw": "0.0.11"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -19,10 +21,12 @@
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
+    "axios": "^0.18.0",
     "gh-pages": "^1.2.0",
     "jquery": "^3.3.1",
     "react-bootstrap": "^0.32.1",
     "react-router-dom": "^4.3.1",
+    "react-slick": "^0.23.1",
     "react-tilt": "^0.1.4",
     "tachyons": "^4.10.0"
   }

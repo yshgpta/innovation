@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-import BackgroundImage from '../../images/background2.jpg';
+import BackgroundImage from '../../images/background.jpg';
 import Cloud from '../../images/clouds.png';
 import Fog from '../../images/fog-low.png'
 

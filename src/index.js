@@ -5,6 +5,7 @@ import App from './App';
 import SignUp from './SignupBtn';
 import Gallery from './components/Gallery/Gallery';
 import ContactMe from './components/ContactMe/ContactMe';
+import WeatherApp from './components/Weather/WeatherApp'
 import {BrowserRouter,Route} from 'react-router-dom';
 import 'tachyons';
 
@@ -14,5 +15,6 @@ ReactDOM.render(<BrowserRouter>
                   <Route exact path='/sign_up' component={SignUp}></Route>
                   <Route exact path='/gallery' component={Gallery}></Route>
                   <Route exact path='/contact_me' component={ContactMe}></Route>
+                  <Route exact path='/weather' component={WeatherApp}></Route>
                   </div>
                 </BrowserRouter>, document.getElementById('root'));

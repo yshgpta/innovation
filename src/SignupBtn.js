@@ -102,7 +102,7 @@ class SignUp extends Component {
   }
   onButtonSubmit = () =>{
     this.setState({imageUrl:this.state.input})
-    fetch('https://limitless-lake-10931.herokuapp.com/imageurl',{
+    fetch('https://dry-fortress-38309.herokuapp.com/imageurl',{
       method:'post',
       headers:{
         'Content-Type':'application/json'
@@ -113,7 +113,7 @@ class SignUp extends Component {
     })
     .then(response=>response.json())
     .then(response => {
-      fetch('https://limitless-lake-10931.herokuapp.com/image',{
+      fetch('https://dry-fortress-38309.herokuapp.com/image',{
         method:'put',
         headers:{
           'Content-Type':'application/json'

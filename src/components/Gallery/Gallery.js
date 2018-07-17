@@ -81,7 +81,7 @@ class Gallery extends Component {
     })
   }
 
-  componentDidMount(){
+  componentWillMount(){
     this.getFromDatabase();
   }
 

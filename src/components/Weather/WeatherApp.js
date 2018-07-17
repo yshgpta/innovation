@@ -38,7 +38,7 @@ class WeatherApp extends Component{
     const city = event.target.city.value;
     const country = event.target.country.value;
     if(city && country){
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_KEY}&units=metric`,{
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_KEY}&units=metric`,{
       method:'GET'
     })
     .then(response => response.json())
